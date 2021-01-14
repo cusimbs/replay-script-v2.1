@@ -41,6 +41,9 @@ if 'as' in clusterID:
 
 if 'eu' in clusterID:
 		reportdata='gs://gamesys-eu-live-rgp-event-report-data/'
+		
+if 'eub2b' in clusterID:
+		reportdata='gs://gamesys-eu-live-rgp-b2b-event-report-data/'
 #endof Cluster selection
 
 playerId = args.playerId
